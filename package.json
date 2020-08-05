@@ -10,7 +10,7 @@
     "bootstrap": "npx lerna bootstrap",
     "start": "npm run build:specs && BROWSER=none npx lerna run --concurrency 2 start",
     "build": "npx lerna run --parallel build",
-    "build:specs": "yarn run build --scope=@keypering/specs",
+    "build:specs": "npx lerna run build --scope=@keypering/specs",
     "bundle:ui": "ncp ./packages/ui/build ./packages/app/public/ui",
     "clean:build": "npx lerna run --parallel clean:build",
     "release": "npm run clean:build && npm run build && npm run bundle:ui && ./scripts/release.sh"

@@ -1,0 +1,47 @@
+name: Package Keypering
+
+on:
+  - push
+
+jobs:
+  default:
+    name: Package Keypering
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2-beta
+
+      - name: Bootstrap
+        run: npx lerna bootstrap
+
+      - name: Build Specs
+        run: npm run build:specs
+
+      - name: Package
+        run: |
+          cp ./packages/app/.env.example ./packages/app/.env
+          npm run release
+        env:
+          PORT: 3102
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Keypering Mac
+        uses: actions/upload-artifact@v2
+        with:
+          name: Keypering-mac.zip
+          path: release/Keypering-*-mac.zip
+
+      - name: Upload Keypering Win
+        uses: actions/upload-artifact@v2
+        with:
+          name: Keypering-setup.exe
+          path: release/Keypering-*-setup.exe
+
+      - name: Upload Keypering Linux
+        uses: actions/upload-artifact@v2
+        with:
+          name: Keypering.AppImage
+          path: release/Keypering-*.AppImage
