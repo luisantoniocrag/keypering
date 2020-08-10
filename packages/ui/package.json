@@ -31,7 +31,7 @@
     "@keypering/specs": "0.0.0",
     "@nervosnetwork/ckb-types": "0.32.0",
     "@types/react": "16.9.45",
-    "@types/react-dom": "16.9.0",
+    "@types/react-dom": "16.9.8",
     "@types/react-router-dom": "5.1.5",
     "electron": "9.1.1",
     "node-sass": "4.14.1"
