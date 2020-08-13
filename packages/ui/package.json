@@ -25,7 +25,7 @@
     "react-dom": "16.13.1",
     "react-feather": "2.0.8",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.3"
   },
   "devDependencies": {
     "@keypering/specs": "0.0.0",
