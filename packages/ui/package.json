@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@keypering/specs": "0.0.0",
-    "@nervosnetwork/ckb-types": "0.34.0",
+    "@nervosnetwork/ckb-types": "0.35.0",
     "@types/react": "16.9.45",
     "@types/react-dom": "16.9.0",
     "@types/react-router-dom": "5.1.5",
