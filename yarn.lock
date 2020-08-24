@@ -2152,14 +2152,14 @@
     "@nervosnetwork/ckb-sdk-utils" "0.29.1"
     "@nervosnetwork/ckb-types" "0.29.1"
 
-"@nervosnetwork/ckb-sdk-core@0.34.0":
-  version "0.34.0"
-  resolved "https://registry.npm.taobao.org/@nervosnetwork/ckb-sdk-core/download/@nervosnetwork/ckb-sdk-core-0.34.0.tgz#d68f5ce98cb419457327dd6168a40f3190186cb5"
-  integrity sha1-1o9c6Yy0GUVzJ91haKQPMZAYbLU=
+"@nervosnetwork/ckb-sdk-core@0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@nervosnetwork/ckb-sdk-core/-/ckb-sdk-core-0.35.0.tgz#02f759c10acdd46685e3ae103ae8db38753bbedc"
+  integrity sha512-H45ER4oQRnow27czYnTpfe8970k3n2w+RswX6e/Rtu2kWV5h3oGeSx/fusEv8VfKToU3EjHWNmTo6/iMaebXRg==
   dependencies:
-    "@nervosnetwork/ckb-sdk-rpc" "0.34.0"
-    "@nervosnetwork/ckb-sdk-utils" "0.34.0"
-    "@nervosnetwork/ckb-types" "0.34.0"
+    "@nervosnetwork/ckb-sdk-rpc" "0.35.0"
+    "@nervosnetwork/ckb-sdk-utils" "0.35.0"
+    "@nervosnetwork/ckb-types" "0.35.0"
 
 "@nervosnetwork/ckb-sdk-rpc@0.29.1":
   version "0.29.1"
@@ -2169,12 +2169,12 @@
     "@nervosnetwork/ckb-sdk-utils" "0.29.1"
     axios "0.19.0"
 
-"@nervosnetwork/ckb-sdk-rpc@0.34.0":
-  version "0.34.0"
-  resolved "https://registry.npm.taobao.org/@nervosnetwork/ckb-sdk-rpc/download/@nervosnetwork/ckb-sdk-rpc-0.34.0.tgz#6b1d795a7575205ad852809aacbe9aa84fc89e12"
-  integrity sha1-ax15WnV1IFrYUoCarL6aqE/InhI=
+"@nervosnetwork/ckb-sdk-rpc@0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@nervosnetwork/ckb-sdk-rpc/-/ckb-sdk-rpc-0.35.0.tgz#c288dbc877ebb31cb6b00c53490da736e2fab34f"
+  integrity sha512-YqovFZ1fkU9xybQNFesxcI+MWFgdO2V/S2KMFDX9zmrrZsyfwtIfHq/K/FVGwmNM6knOfQa2snNBN43RUJRx1g==
   dependencies:
-    "@nervosnetwork/ckb-sdk-utils" "0.34.0"
+    "@nervosnetwork/ckb-sdk-utils" "0.35.0"
     axios "0.19.2"
 
 "@nervosnetwork/ckb-sdk-utils@0.29.1":
@@ -2197,6 +2197,16 @@
     elliptic "6.5.3"
     jsbi "3.1.3"
 
+"@nervosnetwork/ckb-sdk-utils@0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@nervosnetwork/ckb-sdk-utils/-/ckb-sdk-utils-0.35.0.tgz#2b98a618a96025d8c130598db60b73a9af9178ec"
+  integrity sha512-AR4lPAcGJ+nGiHo5ASZyQdv+re6rJr/6AQedykXMUTGrrBadFh5dOIckKSZqpbdf/Kj78lCNvoVIITvENdYV2A==
+  dependencies:
+    "@nervosnetwork/ckb-types" "0.35.0"
+    blake2b-wasm "2.1.0"
+    elliptic "6.5.3"
+    jsbi "3.1.3"
+
 "@nervosnetwork/ckb-types@0.29.1":
   version "0.29.1"
   resolved "https://registry.npmjs.org/@nervosnetwork/ckb-types/-/ckb-types-0.29.1.tgz#c66b8b8fd9f436538cb30ddf1ecfe8e542ad67af"
@@ -2206,6 +2216,11 @@
   version "0.34.0"
   resolved "https://registry.npmjs.org/@nervosnetwork/ckb-types/-/ckb-types-0.34.0.tgz#4ae3329aa9e5b73dc337a1eac736305f0defd9fe"
   integrity sha512-gpwICFMltsuNYOVc9S5favA9ViEPfX29VHbnGibs8MelNrZcW/Mq88exWx+FXTnMOVn/bUFaQKOAY6ejWzOFtg==
+
+"@nervosnetwork/ckb-types@0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@nervosnetwork/ckb-types/-/ckb-types-0.35.0.tgz#1174e8d6b43e20905a232fa130a03872e73f3c1a"
+  integrity sha512-0uGmdlYcFSvX6R907oGHJupNqIezRxGpBY8IHFxRaCCbUWAM4dpsvMr0ds5BVWVJ2APTKchA8f0StoU3iP+S+g==
 
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
