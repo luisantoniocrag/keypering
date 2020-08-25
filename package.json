@@ -43,7 +43,7 @@
     "eslint-plugin-react-hooks": "4.0.8",
     "husky": "4.2.5",
     "lerna": "3.22.1",
-    "lint-staged": "10.2.11",
+    "lint-staged": "10.2.13",
     "ncp": "2.0.0",
     "nodemon": "2.0.4",
     "rimraf": "3.0.2",
